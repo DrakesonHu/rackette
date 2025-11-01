@@ -1,0 +1,45 @@
+1. WAVE
+Some of the more common errors were a lack of alternative text and 
+low-contrast errors; color-blind and visually impaired individuals may have a
+difficult time reading websites designed without these factors in mind. 
+However, we noted that WAVE is context-blind, in that it uses a rather rigid
+set of evaluation metrics which is unable to account for nuance and intent. 
+In addition, the content of the website is not evaluated. A site may not 
+necessarily be visually confusing, but titles, wording, and webpage 
+organization may be uninformative or difficult to navigate. We found it
+odd and that WAVE evaluated itself a 10/10, while the webpage did not seem
+particularly easy to navigate and understand.
+
+2. Accessibility, usability, inclusion
+The "variable names" example addresses accessibility and usability, as variable
+names that require a shift key are harder to type and unintentionally exclude 
+users with mobility disability. The "ASCII vs Unicode" example addresses 
+inclusion, where all names are standardized in the English alphabet and 
+excludes possibilities in other languages. This increases the barrier of 
+entry to CS for non-English speakers, exacerbating CS into a Eurocentric space.
+
+3. Our own design
+1) Syntax readability. This can mean prioritizing less visually confusing 
+elements, such as stacked parentheses. This can also mean using syntax that 
+resembles natural language, so that people can pick it up easier (eg. more 
+people can intuitively read Python than they can read Racket). For people 
+who do not have access to formal coding education or people who don't have 
+robust experience in STEM, this could lower the barrier for entry.
+2) An infix operator would be nice because that's how math is taught in school. 
+Not using syntax like $ or @ would be helpful too, as their usage/meaning in 
+programming often seems arbitrary and unintuitive. Would also be nice to have 
+easily readable documentation (eg. most times I don't know what Stata 
+documentation is talking about. Maybe a documentation for documentation??) 
+Once again, this lowers the barrier for entry.
+3) One pitfall is that computational logic hardly parallels natural language;
+therefore, it's hard to translate speech to code. Many visual elements of 
+coding language, such as indentations that suggest hierarchical relationships,
+are hard to describe verbally. Perhaps one way to address it is to have the 
+speech describe the function of the code, rather than the syntax of the code.
+For instance, when I ask ChatGPT to explain a set of codes to me, Chat 
+annotates each line with natural language--that can be the input/output of 
+these features instead. Another way is to really reflect natural language 
+logic in the syntax. The speech-to-text or screen reader should also hold 
+less executive decision power, in that there should be more incremental 
+checking with the user with each step of output. (All of these ideas could be 
+implemented with AI. This is sounding more and more like vibe coding!!)
